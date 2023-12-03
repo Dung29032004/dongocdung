@@ -43,27 +43,19 @@ img:hover{
 .phan1{
     font-size: 18pt;
     background-color: #ddd;
-    width: auto;
+    width: 100%;
     border-style: groove;
-    border-width: medium;
-    text-overflow: inherit;
 }
 .p1{
     margin-left: 5px;
 }
 .p2{
     color: #ffffff;
-    padding: 100px 100px;
-    width: 70px;
-    height: 70px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
     font-size: 12pt;
 }
 .phan2{
     gap: 10px;
-    display: flex;
-    flex-wrap: wrap;
 }
 ul.b{
     list-style-type: square;
@@ -72,4 +64,31 @@ ul.b{
 .phan3{
     font-size: 20pt;
     font-family: 'Times New Roman', Times, serif;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px;
 }
