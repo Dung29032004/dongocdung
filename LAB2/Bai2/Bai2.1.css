@@ -85,8 +85,11 @@ li{
 div{
     display: block;}
 a:hover{
-    color: blue;
+    color: #2e3192;
 }
 .ket{
     text-decoration: none;
+}
+.ket:hover{
+    color: blue;
 }
