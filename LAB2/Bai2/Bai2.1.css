@@ -1,6 +1,8 @@
 @font-face {
     font-family: SFD-Bold;
     src: url(./font/SFD-Bold.ttf);
+}
+@font-face {
     font-family: SFD-Medium;
     src: url(./font/SFD-Medium.ttf);
 }
@@ -50,13 +52,15 @@ p{
     margin-bottom: 15px;}
 .ghw-top-header{
     background: #2e2e2e;
-    height: 25px;
     position: relative;
-    z-index: 0;}
+    z-index: 0;
+    display: flex;
+}
 .ghw-menu-channelvn{
-    float: left;}
-ul{
+    float: left;
     list-style: none;
+    margin-top: -1px;}
+ul{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -68,13 +72,21 @@ ul{
     margin-right: 22px;}
 .gmchi a{
     font-family: SFD-Medium;
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 5px;
     display: block;
     color: #aaa;
     text-decoration: none;
-    text-transform: uppercase}
+    text-transform: uppercase;
+    margin-top: 15px;
+}
 li{
     text-align: --webkit-match-parent;}
 div{
     display: block;}
+a:hover{
+    color: blue;
+}
+.ket{
+    text-decoration: none;
+}
