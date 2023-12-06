@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 #main{
-    width: 560px;
+    max-width: 560px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,8 +19,8 @@ li:hover{
     color: rgb(228,228,19);
 }
 .mau{
-    width: 560px;
-    height: 430px;
+    max-width: 560px;
+    max-height: 430px;
     background-color: rgb(194,186,186);
     color: rgb(66,68,189);
     text-align: center;
