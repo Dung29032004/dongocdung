@@ -33,13 +33,11 @@ h2{
     text-decoration: none;
     position: relative;}
 img{
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
-    cursor: zoom-in;
-    padding: 0;
-    border: 0;}
+    cursor: zoom-in;}
 .l{
     border-width: 0.75px;
     border-style: dashed;}
