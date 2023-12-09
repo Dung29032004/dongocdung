@@ -1,5 +1,8 @@
 body{
-    background-color: #f5e7eb;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701993600&semt=sph);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 h1{
     text-align: center;
