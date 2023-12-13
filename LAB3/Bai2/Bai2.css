@@ -8,6 +8,21 @@
     font-style: italic;
     font-display: swap;
 }
+.thanh{
+    margin-top: -20px;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1.5px solid #eee;
+}
+hr{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1.5px solid #eee; 
+}
 body {
     margin: 0;
     padding: 0;
@@ -102,7 +117,16 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+.header1{
     position: fixed;
+    background-color: #2fa1b3;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    display: flex;
 }
 .headers-container{
     width: 970px;
@@ -207,6 +231,9 @@ body {
     border-right: 1px solid white;
     cursor: pointer;
 }
+.nut-icon:hover{
+    background-color: #247a88;
+}
 .material-symbols-outlined{
     color: #ffffff;
 }
@@ -230,6 +257,19 @@ body {
     width: 625px;
     height: 351px;
     cursor: pointer;
+    transition: all 1s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    max-width: 100%;
+    border-radius: 5px;
+}
+.box-zoom-out{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.box-zoom-out:hover img{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
 }
 .ndung a:hover {
     color:#2fa1b3;
@@ -272,7 +312,13 @@ body {
     align-items: center;
     cursor: pointer;
 }
+.bonus1{
+    color: #adb5bd;
+}
 a.bonus:hover{
+    color: #2fa1b3;
+}
+a.bonus1:hover{
     color: #2fa1b3;
 }
 .tt-more{
@@ -283,23 +329,46 @@ a.bonus:hover{
     margin: 11px 0px 15px;
     padding: 0px 0px 15px;
 }
-.ndung a:hover + .image5{
-    display: block;
-}
 .image5{
     height: 20px;
     margin-top:-5px;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+}
+.drop:hover .clocki, .drop:hover .clocki1, .drop:hover .clocki2{
+    display: block;
+}
+.clocki{
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-left: 185px;
+}
+.clocki1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-left: 102px;
+}
+.clocki2{
+    display: none;
+    position: absolute;
+    width: 100%;
 }
 .tt-more1{
     width: 200px;
     height: 256px;
 }
-.bm-logo :hover .clocki{
-    display: block;
-}
 .image6{
     width: 198px;
     height: 132px;
+    transition: all 1s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    max-width: 100%;
+    border-radius: 5px;
 }
 .text{
     font-size: 20px;
@@ -345,8 +414,21 @@ a.bonus:hover{
 .image8{
     width: 60px;
     height: 60px;
-    border-radius: 8px;
     cursor: pointer;
+    transition: all 1s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    border-radius: 5px;
+}
+.box-zoom-out1{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.box-zoom-out1:hover img{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
 }
 .ndung1{
     width: 250px;
@@ -385,10 +467,6 @@ a.bonus:hover{
     font-size: 13px;
     color: #adb5bd;
     margin: 0px 0px 0px 12px;
-    cursor: pointer;
-}
-.bm-logo2 p:hover{
-    color: #2fa1b3;
 }
 a{
     text-decoration: none;
