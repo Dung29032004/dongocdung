@@ -7,3 +7,104 @@ body{
 h1{
     text-align: center;
 }
+body{
+    margin: 0;
+}
+.bar{
+    background-color: pink;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+li a:hover:not(.active) {
+    background-color: #f2e2e3;
+}
+.active {
+    background-color: #04AA6D;
+}
+.menu{
+    background-color: aquamarine;
+    width: 100%;
+    height: 550px;
+    font-size: 20pt;
+    display: flex;
+    margin-top: 25px;
+    background-image: url(img/Untitled-1.png);
+    background-repeat: no-repeat;
+    background-attachment:unset;
+    background-size: 100%;
+    background-position-y:-10px;
+
+}
+.button{
+    display: flex;
+    width: 100%;
+
+}
+.homework{
+    background-color: bisque;
+    margin-top: 10px;
+    height: 500px;
+}
+h2{
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: -1px;
+}
+.LAB1:hover .baitap, .LAB2:hover .baitap2, .LAB3:hover .baitap3{
+    display: block;
+}
+a:hover{
+    color: #e8a4cb;
+}
+.baitap{
+    display: none;
+    position: absolute;
+}
+.LAB1{
+    position: relative;
+    display: inline-block;
+}
+.homework1{
+    display: flex;
+    margin-left: 20px;
+    gap: 50px;
+}
+.LAB2{
+    position: relative;
+    display: inline-block;
+}
+.baitap2{
+    display: none;
+    position: absolute;
+}
+.LAB3{
+    position: relative;
+    display: inline-block;
+}
+.baitap3{
+    display: none;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
