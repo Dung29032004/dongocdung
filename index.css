@@ -60,9 +60,12 @@ li a:hover:not(.active) {
 
 }
 .homework{
-    background-color: bisque;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg);
     margin-top: 10px;
-    height: 500px;
+    height: 400px;
 }
 h2{
     font-size: 25pt;
