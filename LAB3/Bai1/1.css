@@ -632,6 +632,10 @@ h1{
 .nguon:hover, .nguon1:hover, .nguon2:hover{
     background-color: #c2e7ff;
 }
+.nguon:active{
+    border: 5px solid black;
+    background: 26px;
+}
 .nguon2{
     flex-direction: initial;
     background-repeat: no-repeat;
