@@ -15,6 +15,7 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 ul {
     list-style-type: none;
@@ -58,13 +59,15 @@ li a:hover:not(.active) {
 
 }
 .homework{
+    width: 100%;
     background-repeat: no-repeat;
     background-attachment: unset;
-    background-size: cover;
-    background-position-y: -260px;
+    background-size: 100%;
+    background-position-y: px;
+    background-position-x: px;
     background-image: url(https://i.pinimg.com/564x/99/b8/f6/99b8f6812e5d68ef9ae41b82da9a15af.jpg);
     margin-top: 10px;
-    height: 400px;
+    height: 600px;
 }
 h2{
     font-size: 25pt;
@@ -75,7 +78,7 @@ h2{
     display: block;
 }
 a:hover{
-    color: #e8a4cb;
+    color: red;
 }
 .baitap{
     display: none;
