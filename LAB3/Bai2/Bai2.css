@@ -53,6 +53,7 @@ body {
     width: 125px;
     height: 55px;
     cursor: pointer;
+    margin-top: 5px;
 }
 .sreach{
     width: 467px;
@@ -77,10 +78,12 @@ body {
     background-color:  rgb(212, 237, 248);
     color: rgb(68, 186, 230);
 }
-.container-content i{
+.container-content a{
     width: 32px;
     height: 28px;
-    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     right: 430px;
     top: 22px;
     display: flex;
@@ -117,11 +120,16 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    position: absolute;
-    z-index: 2;
+    position: -webkit-sticky;
+    position: sticky;
+     top: 0;
+     z-index: 2;
+    
 }
 .header1{
-    position: fixed;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
     background-color: #2fa1b3;
     width: 100%;
     height: 40px;
@@ -129,6 +137,9 @@ body {
     display: flex;
 }
 .headers-container{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
     width: 970px;
     height: 40px;
     display: flex;
@@ -242,6 +253,7 @@ body {
 }
 .container-content-tt{
     padding: 15px 0px;
+    padding-bottom:2000px
 }
 .container-content-nd{
     width: 970px;
