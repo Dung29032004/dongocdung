@@ -72,12 +72,6 @@ body {
 .sreach:hover{
     border: 1px solid rgb(96, 196, 233);
 }
-.container-content i:hover{
-    width: 32px;
-    height: 28px;
-    background-color:  rgb(212, 237, 248);
-    color: rgb(68, 186, 230);
-}
 .container-content a{
     width: 32px;
     height: 28px;
@@ -124,12 +118,11 @@ body {
     position: sticky;
      top: 0;
      z-index: 2;
-    
 }
 .header1{
     position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
     background-color: #2fa1b3;
     width: 100%;
     height: 40px;
@@ -138,8 +131,8 @@ body {
 }
 .headers-container{
     position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
     width: 970px;
     height: 40px;
     display: flex;
