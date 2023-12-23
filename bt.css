@@ -223,10 +223,6 @@ img{
 }
 #bd1img{
     width: 40%;
-    background-image: url(img/9.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
 }
 #bd2{
     background-color: #ffffff;
@@ -241,17 +237,13 @@ img{
 }
 .square1{
     background-color: #fcc302;
-    position: absolute;
     width: 252px;
     height: 206px;
-    left: 50%;
+    margin: -30% 0 0 10%;
 }
 #imgbd2{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    z-index: 1;
+    display: flex;
+    margin: 0 0 0 18%;
 }
 #bd3{
     background-color: #fcc302;
@@ -275,7 +267,7 @@ img{
 #bd4{
     background-color: #ffffff;
     width: 100%;
-    padding: 140px 0;
+    padding: 50px 0;
 }
 #bd4text{
     color: #000000;
@@ -283,21 +275,17 @@ img{
     font-family: 'Poppins', sans-serif;
     padding: 50px 0;
     text-align: right;
+    margin-left: 70px;
 }
-#imgbd4{
-    background-image: url(bd4.png);
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-    z-index: 1;
+#imgbd4 {
+    display: flex;
+    margin: 18% 0 0 0;
 }
 .square2{
     background-color: #fcc302;
-    position: absolute;
     width: 252px;
     height: 206px;
-    left: 33%;
+    margin: -30% 0 0 60%;
 }
 #bd5{
     background-color: #fcc302;
@@ -306,5 +294,37 @@ img{
 }
 .soo i{
     cursor: pointer;
-
+}
+img{
+    width: 100%;
+}
+.button1:hover{
+    background-color: red;
+}
+.button1{
+    width: 182px; 
+    height: 69px; 
+    background-color: #fcc302; 
+    border: none; 
+    font-size: 20px; 
+    color: #ffffff; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+    cursor: pointer;
+}
+.button2{
+    width: 182px; 
+    height: 69px;
+    background-color: #00bec9;
+    border: none; 
+    font-size: 20px; 
+    color: #ffffff; 
+    font-weight: bold; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #313131;
+    text-decoration: underline;
 }
