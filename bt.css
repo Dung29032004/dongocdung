@@ -174,7 +174,7 @@ img{
     text-decoration: none;
 }
 #bar li a:hover{
-  background-color: #0d0b89;
+  background-color: #313131;
 }
 #bar{
     position: relative;
@@ -217,11 +217,9 @@ img{
     width: 252px;
     height: 206px;
     left: 50%;
-    margin: 25% 0 0 0;
 }
 #imgbd2{
-    background-image: url(img/8.png);
-    width: 50%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -272,7 +270,7 @@ img{
     width: 252px;
     height: 206px;
     left: 33%;
-    margin: 25% 0 0 0;
+;
 }
 #bd5{
     background-color: #fcc302;
