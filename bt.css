@@ -88,6 +88,9 @@ li{
     text-align: center;
     border-radius: 50%;
 }
+.circle:hover{
+    color: white;
+}
 .circle1{
     top: -1px;
     height: 26px;
@@ -455,4 +458,22 @@ img{
     .bd4text{
         width: 100%;
     }
+}
+.image4:hover{
+    transform: scale(1.06) translateZ(0);
+}
+.image4{
+    transition: transform .7s;
+}
+.fa-instagram:hover{
+    background-color: #ce4b81;
+}
+.fa-facebook:hover{
+    background-color: #395793;
+}
+.fa-twitter:hover{
+    background-color: #1ca3db;
+}
+.fa-whatsapp:hover{
+    background-color: #25d366;
 }
