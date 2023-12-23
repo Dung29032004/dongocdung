@@ -11,8 +11,9 @@ body{
     background-color: #313131;
     color: #fff;
     width: 100%;
-    display: inline-block;
+    display: flex;
     margin-top: -23px;
+    justify-content: space-evenly;
 }
 .doanket1{
     display: flex;
@@ -24,6 +25,7 @@ body{
 .doanket2{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     gap: 80px;
 }
 .title2 li:hover{
@@ -40,7 +42,9 @@ li{
     margin-top: 10px;
 }
 .right{
-    margin-left: -800px;
+    margin-left: -600px;
+    margin-right: auto;
+
 }
 .right1{
     line-height: 5px;
@@ -299,4 +303,8 @@ img{
     background-color: #fcc302;
     width: 100%;
     padding: 100px 0;
+}
+.soo i{
+    cursor: pointer;
+
 }
