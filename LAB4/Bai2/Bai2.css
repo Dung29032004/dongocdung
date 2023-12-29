@@ -131,7 +131,7 @@ img, video {
     line-height: 1.36;
     color: #fff;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 .title a{
     text-transform: none;
