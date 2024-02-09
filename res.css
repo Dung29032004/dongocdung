@@ -46,11 +46,12 @@
         border-radius: 12px;
         border: 3px solid #000;
     }
-    .about_contact::before{
-        box-shadow: 0 0 0 3px #000;
+    .about_contact:before{
+        /* box-shadow: 0 0 0 3px #000; */
+        visibility: hidden;
     }
-    .about_contact:hover::before {
-        box-shadow: 0 0 0 3px #000;
+    .about_contact:hover:before {
+        /* box-shadow: 0 0 0 3px #000; */
     }
     .avatar{
         padding: 0 40px;
@@ -212,6 +213,9 @@
     .button-confirm{
         padding: 5px 20px;
         font-size: 12px;
+    }
+    .button-confirm:before{
+        visibility: hidden;
     }
     .thank{
         padding: 0;
