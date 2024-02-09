@@ -63,6 +63,10 @@ a{
 .menubar a{
     font-size: 30px;
     color: rgba(255, 159, 159, 0.76);
+    transition: transform .2s;
+}
+.menubar a:hover{
+    transform: scale(1.25);
 }
 #menumobile{
     display: none;
@@ -461,7 +465,11 @@ button{
     transition-delay: 150ms;
     line-height: 100%;
     color: #FF9F9F;
-    -webkit-text-stroke: 0.5px #000000;
+    -webkit-text-stroke: 0.75px #000000;
+}
+.baitap p a{
+    -webkit-text-stroke: 0.75px #000000;
+    color: #FF9F9F;
 }
 .baitap1 p:first-child{
     margin-top: 50px;
