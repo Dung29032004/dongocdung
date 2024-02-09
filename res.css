@@ -1,0 +1,230 @@
+@media screen and (max-width: 720px) {
+    #menu{
+        display: none;
+    }
+    #menumobile{
+        display: block;
+    }
+    .aboutme{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .avatar{
+        position: absolute;
+        top: 10%;
+        z-index: 1;
+    }
+    .avatar img{
+        border-radius: 131.27px;
+        width: 263.46px;
+        height: 263px;
+    }
+    .about_part{
+        width: 100%;
+        margin: 0;
+        gap: 250px;
+        margin-top: -150px;
+    }
+    .about_part h2, footer h2, .social h2, .testi2 h2, .resume h2{
+        font-size: 35px;
+    }
+    .about_title{
+        width: 340px;
+        margin: 0 calc((100% - 331px)/2);
+    }
+    .about_title h3{
+        font-size: 48px;
+    }
+    .about_title p{
+        font-size: 20px;
+    }
+    .about_contact{
+        right: 10%;
+        bottom: 10%;
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 12px;
+        border: 3px solid #000;
+    }
+    .about_contact::before{
+        box-shadow: 0 0 0 3px #000;
+    }
+    .about_contact:hover::before {
+        box-shadow: 0 0 0 3px #000;
+    }
+    .avatar{
+        padding: 0 40px;
+    }
+    .about_avatarnote1{
+        top: 25%;
+        border-radius: 9px;
+        width: 109px;
+        height: 23px;
+        font-size: 15px;
+    }
+    .about_avatarnote2{
+        bottom: 10%;
+        left: 0;
+        background-color: #c2deff;
+        border-radius: 9px;
+        width: 109px;
+        height: 23px;
+        font-size: 15px;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 720px){
+    .resume_list{
+        justify-content: center;
+    }
+    .techniclist{
+        gap: 10px;
+    }
+    .techniclist img{
+        width: 60px;
+        height: 60px;
+    }
+    .educate h3, .technic h3, .experi h3, .hobby h3{
+        font-size: 23px;
+    }
+    .educate_title p, .experi_title p{
+        font-size: 20px;
+    }
+    .norm{
+        font-size: 18px;
+    }
+    .hobby_title{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hobby_titlee img{
+        width: 50%;
+    }
+    .hobby_title p{
+        font-size: 18px;
+    }
+    .hashtag{
+        gap: 20px;
+        justify-content: center;
+    }
+    .hashtag_content{
+        padding: 4px 10px;
+        font-size: 18px;
+        border-radius: 18px;
+    }
+}
+@media screen and (max-width: 720px){
+    .homework1{
+        width: 75%;
+        margin: 0 calc((100% - 75%)/2);
+        margin-bottom: 50px;
+    }
+    .LAB{
+        width: 200px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 720px){
+    .testi2{
+        width: 347px;
+        border-radius: 15px 15px 0 0;
+        height: 48px;
+        margin: 0 calc((100% - 347px)/2);
+    }   
+    .testi_title{
+        width: 347px;
+        border-radius: 0 0 15px 15px;
+        height: 376px;
+        margin: 0 calc((100% - 347px)/2);
+        margin-bottom: 20px;
+    }
+    .testi_title1{
+        width: 70%;
+        margin: 0 calc((100% - 70%)/2);
+    }
+    .testi_title img{
+        width: 100%;
+        height: 160px;
+    }
+    .arrow-left{
+        font-size: 40px;
+        left: -30%;
+    }
+    .arrow-right{
+        font-size: 40px;
+        right: -30%;
+    }
+    .testi_title_part{
+        width: 310px;
+        height: 128px;
+        border-radius: 20px;
+        margin: 0 calc((100% - 310px)/2);
+        margin-top: 20px;
+    }
+    .testi_title_part p{
+        font-size: 12px;
+        width: 277px;
+        margin: 0 calc((100% - 277px)/2);
+    }
+}
+@media screen and (max-width: 720px){
+    .contact_flex{
+        gap: 50px;
+        width: 60%;
+        margin: 0 calc((100% - 60%)/2);
+    }
+    .form{
+        width: 284px;
+        height: 370px;
+        gap: 36px;
+    }
+    .input{
+        width: 205px;
+        height: 46px;
+        font-size: 15px; 
+    }
+    .button-confirm{
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+    .thank{
+        padding: 0;
+        position: relative;
+    }
+    .heart img{
+        width: 30%;
+    }
+    .th{
+        font-size: 52px;
+        line-height: 100%;
+    }
+    .heart img:first-child{
+        position: absolute;
+        left: -30%;
+    }
+    .heart img:last-child{
+        position: absolute;
+        right: -30%;
+    }
+    .th h3:first-child, .th h3:not(:first-child){
+        -webkit-text-stroke: 2.7386996746063232px #000000;
+    }
+    .social{
+        margin-top: 0;
+    }
+    .social1{
+        gap: 20px;
+        margin-right: 0;
+        margin-top: -10%;
+    }
+    .thelast{
+        height: 25px;
+        padding-right: 5%;
+        gap: 10px;
+    }
+    .thelast p {
+        font-size: 12px;
+    }
+}

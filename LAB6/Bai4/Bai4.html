@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="Bai4.css">
+</head>
+<body>
+<div class="dk">
+    <h1><b>FORM ĐĂNG KÝ</b></h1>
+    <form name="Form" onsubmit="return validateForm()" method="post">
+        <p>Họ <input type='text' name='txtho'></p>
+        <p>Tên <input type='text' name='txtten'></p>
+        <p>Ngày sinh:
+            Ngày <select size="1" id="ngay"></select> 
+            Tháng <select size="1" id="thang" ></select>
+            Năm <select size="1" id="nam" ></select> 
+        </p>
+        <p>Giới tính
+            <input style="cursor: pointer;" type="radio" value="Nam" name="rdSize" checked="checked"/>Nam
+            <input style="cursor: pointer;" type="radio" value="Nu" name="rdSize"/>Nữ
+        </p>
+        <p>Số điện thoại
+            <input type="number" id="txtdienthoai">
+        </p>
+        <p>Sở thích
+            <input style="cursor: pointer;" type="checkbox" value="Docsach" name="ckSize" checked="checked"/>Đọc sách
+            <input style="cursor: pointer;" type="checkbox" value="Xemphim" name="ckSize"/>Xem phim
+            <input style="cursor: pointer;" type="checkbox" value="Nghenhac" name="ckSize"/>Nghe nhạc
+            <input style="cursor: pointer;" type="checkbox" value="Dabong" name="ckSize"/>Đá bóng
+        </p>
+        <p>Khác 
+            <textarea style="height: 35px; width: 150px;" name="content" placeholder=""></textarea>
+        </p>
+        <div style="display: flex; gap: 5px;" class="in">
+            <input style="cursor: pointer; border-radius: 4px;" type='submit' id='' name='' value="Submit">
+            <input style="cursor: pointer;  border-radius: 4px;" type='reset' id='' name='' value="Reset">
+        </div>
+    </form>
+</div>
+    <script src="Bai4.js"></script>
+</body>
+</html>
+

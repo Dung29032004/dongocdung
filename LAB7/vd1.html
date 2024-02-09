@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>VD1</h1>
+    <h2>Find HTML Elements by Tag Name</h2>
+    <p>Hello World!</p>
+    <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+    <p id="demo"></p>
+<script>
+    var x = document.getElementsByTagName("p");
+    document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: '+ x[0].innerHTML;
+</script>
+<hr>
+    <h1>VD2</h1>
+    <h2>Find HTML Elements by Tag</h2>
+    <p>Hello World!</p>
+    <p class="intro">The DOM is very useful.</p>
+    <p class="intro">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+    <p id="demo1"></p>
+<script>
+    var x = document.getElementsByClassName("intro");
+    document.getElementById("demo1").innerHTML = 'The text in first paragraph (index 0) is: '+ x[0].innerHTML;
+</script>
+<hr>
+    <h1>VD3</h1>
+    <h2 id="id01">Old heading</h2>
+<script>
+    var element = document.getElementById("id01");
+    element.innerHTML = "New Heading";
+</script>
+<hr>
+    <h1>VD4</h1>
+    <img src="https://i.pinimg.com/564x/dd/3b/ae/dd3bae01f365298527cf0a3b1637c63b.jpg" id="myImage">
+<script>
+    document.getElementById("myImage").src = "https://i.pinimg.com/564x/68/6d/b4/686db43e7dd54504ef1c3e86be07469c.jpg"
+</script>
+<hr>
+    <h1>VD5</h1>
+    <div id="container">
+        <p>the pragraph 1</p>
+    </div>
+<script>
+    var phantu=document.createElement('h1');
+    phantu.innerHTML="nội dung thẻ h1";
+    var bien=document.getElementById('container');
+    bien.append(phantu);
+</script>
+<hr>
+    <h1>VD6</h1>
+    <div id="bo"></div>
+    <button onclick="addnode_img();">add images</button>
+<script>
+    function addnode_img(){
+        var pt=document.createElement('img');
+        pt.src="https://i.pinimg.com/564x/7f/20/ec/7f20ec061bccca9f81e2c19e1e63ff1c.jpg";
+        document.getElementById("bo").appendChild(pt);
+    }
+</script>
+<hr>
+    <h1>VD7</h1>
+    <div id="them">
+        <p id="pp1">the first par</p>
+        <p id="pp2">the second par</p>
+    </div>
+    <button onclick="addnode()">add node</button>
+<script>
+    function addnode(){
+        var x=document.createElement('p');
+        x.className="pp3";
+        x.innerText="the new one";
+        var cha=document.getElementById('them');
+        var y=document.getElementById("pp2");
+        cha.insertBefore(x,y);
+    }
+</script>
+<hr>
+    <h1>VD8</h1>
+    <div id="thay">
+        <p id="v1">the first</p>
+        <p id="v2">the second</p>
+    </div>
+    <button onclick="changenode()">change node</button>
+<script>
+    function changenode(){
+        var node=document.createElement('div');
+        node.innerText="the new one";
+        var x=document.getElementById('thay');
+        var y=document.getElementById('v2');
+        x.replaceChild(node,y);
+    }
+</script>
+<hr>
+    <h1>VD9</h1>
+    <div>
+        <p id="d1">nội dung 1</p>
+        <p id="d2">nội dung 2</p>
+        <button onclick="xoa1('d1');">ấn để xoá dòng 1</button>
+    </div>
+    <div id="doan2">
+        <p id="d3">nội dung 3</p>
+        <p id="d4">nội dung 4</p>
+        <button onclick="xoa2('doan2','d4');">ấn để xoá dòng 4</button>
+    </div>
+<script>
+    function xoa1(x){
+        var x= document.getElementById(x);
+        x.remove();
+    }
+    function xoa2(x,y){
+        var cha= document.getElementById(x);
+        var con=document.getElementById(y);
+        cha.removeChild(con);
+    }
+</script>
+<hr>
+    <h1>VD10</h1>
+    <div id="doind">
+        <h1 id="heading1">Xin chào CNTT 2021</h1>
+    </div>
+<script>
+    pt=document.getElementById("heading1");
+    var old=pt.innerHTML;
+    document.write("giá trị h1 cũ là ", old);
+    pt.innerHTML="Học nghiêm túc và chăm chỉ hơn";
+</script>
+<hr>
+<style>
+    .mau_chu{
+        color: green;
+    }
+    .co_chu{
+        font-size: 13px;
+    }
+</style>
+    <h1>VD11</h1>
+    <h2 class="font_chu" id="td1">demo về các thao tác với class</h2>
+    <button onclick="tonho()">try it</button>
+<script>
+    var pt=document.getElementById("td1");
+    pt.classList.add("mau_chu","co_chu");
+    function tonho(){
+        pt.classList.toggle("co_chu");
+    }
+</script>
+</body>
+</html>

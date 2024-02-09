@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* .header2{
+    font-size: 16pt;
+    position: absolute;
+    text-align: center;
+    background-color: #f2e2e3;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    display: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 450ms cubic-bezier(.445,.05,.55,.95);
+    transition-delay: 150ms;
+}
+.bars{
+    background-color: #c6b7de;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.bars:focus + .header2{
+    display: block;
+    opacity: 1;
+}
+.menu{
+    background-color: #c6b7de;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+} */
+.menumobilelogo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.menubarmobile{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    right: 0;
+    padding-top: 40%;
+    padding-left: 2%;
+    top: 0;
+    width: 180px;
+    z-index: 2000;
+    position: fixed;
+    visibility: visible;
+}
+.menubtn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    z-index: 2;
+}
+.fa-times{
+    font-size: 35px;
+    color: #fff;
+}
+.fa-bars{
+    font-size: 35px;
+    color: #fff;
+}
+.menubarmobile1{
+    align-items: flex-start;
+    align-self: flex-start;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 62%;
+    position: relative;
+    text-decoration: none;
+    padding-left: 2%;
+}
+.menubarmobile1>:not(:last-child) {
+    margin-bottom: 40px;
+}
+.menubarmobile1 a{
+    color: inherit;
+    text-decoration: none;
+}
+</style>
+<body style="background-color: black;">
+    <!-- <div class="menu">
+        <button class="bars"></button>
+        <div class="header2">
+            <p>bt1</p>
+            <b>bt2</b>
+        </div>
+    </div> -->
+    <!-- <header id="menumobile">
+        <div id="menumobile1">
+            <a href="" class="menumobilelogo"><img src="image/logo.png" alt=""></a>
+            <button id="openbtn" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true">Open</i></button>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><button class="menubtn"><i class="fa fa-times" aria-hidden="true"></i></button></a>
+            <nav class="menubarmobile">   
+                <a href="#c1">About me</a>
+                <a href="#c2">Resume</a>
+                <a href="#c3">Works</a>
+                <a href="#c4">Testimonials</a>
+                <a href="#c5">Contact</a>
+            </nav>
+        </div>
+    </header> -->
+<header id="menumobile">
+    <a href="" class="menumobilelogo"><img src="image/logo.png" alt=""></a>
+    <button class="menubtn" onclick="myD()">
+        <i class="fa fa-bars" aria-hidden="true">Open</i>
+    </button>
+    <div class="menubarmobile" id="menu">
+        <button class="menubtn" onclick="myX()"><i class="fa fa-times" aria-hidden="true" style="color: #fff;">Exit</i></button>
+        <nav class="menubarmobile1">
+            <a href="#c1" onclick="myX()">About me</a>
+            <a href="">Resume</a>
+            <a href="">Works</a>
+            <a href="">Testimonials</a>
+            <a href="">Contact</a>
+        </nav>
+    </div>
+</header>
+        <h1 style="color: #fff;margin-top: 2000%;" id="c1">player</h1>
+</body>
+<!-- <script>
+    function openNav() {
+      document.getElementById("menubarmobile").style.width = "180px";
+      document.getElementById("openbtn").style.display = "none";
+
+    }
+    
+    function closeNav() {
+      document.getElementById("menubarmobile").style.width = "0";
+      
+    }
+    </script> -->
+    <script>
+    function myD() {
+        var x = document.getElementById("menu");
+        if (x.style.visibility === "hidden") {
+          x.style.visibility = "visible";
+        } else {
+          x.style.visibility = "hidden";
+        }
+      }
+      function myX() {
+        var x = document.getElementById("menu");
+        if (x.style.visibility === "visible") {
+          x.style.visibility = "hidden";
+        } else {
+          x.style.visibility = "visible";
+        }
+      }</script>
+</html>
