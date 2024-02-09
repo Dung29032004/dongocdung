@@ -42,16 +42,20 @@ function myD() {
     var x = document.getElementById("menu2");
     if (x.style.visibility === "hidden") {
       x.style.visibility = "visible";
+      x.style.width = "200px";
     } else {
       x.style.visibility = "hidden";
+      x.style.width = "0";
     }
   }
   function myX() {
     var x = document.getElementById("menu2");
     if (x.style.visibility === "visible") {
       x.style.visibility = "hidden";
+      x.style.width = "0";
     } else {
       x.style.visibility = "visible";
+      x.style.width = "200px";
     }
   }
 

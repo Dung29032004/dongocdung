@@ -1,4 +1,4 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 820px){
     #menu{
         display: none;
     }
@@ -24,14 +24,13 @@
         width: 100%;
         margin: 0;
         gap: 250px;
-        margin-top: -150px;
     }
     .about_part h2, footer h2, .social h2, .testi2 h2, .resume h2{
         font-size: 35px;
     }
     .about_title{
         width: 340px;
-        margin: 0 calc((100% - 331px)/2);
+        margin: 0 calc((100% - 340px)/2);
     }
     .about_title h3{
         font-size: 48px;
@@ -55,6 +54,7 @@
     }
     .avatar{
         padding: 0 40px;
+        padding-top: 3%;
     }
     .about_avatarnote1{
         top: 25%;
@@ -74,7 +74,25 @@
         color: #fff;
     }
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1620px) {
+    .about_title{
+     margin-bottom: 20%;
+    }
+    .about_contact{
+     bottom: 8%;
+    }
+    .about_avatarnote1{
+        top: 18%;
+    }
+    .about_avatarnote2{
+        bottom: 35%;
+    }
+    .resume_list{
+        width: 80%;
+        margin: 0 calc((100% - 80%)/2);
+    }
+ }
+@media screen and (max-width: 820px){
     .resume_list{
         justify-content: center;
     }
@@ -115,7 +133,7 @@
         border-radius: 18px;
     }
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 820px){
     .homework1{
         width: 75%;
         margin: 0 calc((100% - 75%)/2);
@@ -126,7 +144,7 @@
         height: 300px;
     }
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 820px){
     .testi2{
         width: 347px;
         border-radius: 15px 15px 0 0;
@@ -169,7 +187,13 @@
         margin: 0 calc((100% - 277px)/2);
     }
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1920px) {
+    .contact_flex{
+        width: 90%;
+        margin: 0 calc((100% - 90%)/2);
+    }
+}
+@media screen and (max-width: 820px){
     .contact_flex{
         gap: 50px;
         width: 60%;
