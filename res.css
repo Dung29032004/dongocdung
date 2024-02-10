@@ -1,3 +1,18 @@
+@media screen and (max-width: 1620px) {
+    .about_title{
+        bottom: 0;
+    }
+    .about_title{
+     margin-bottom: 20%;
+    }
+    .about_contact{
+     bottom: 8%;
+    }
+    .resume_list{
+        width: 80%;
+        margin: 0 calc((100% - 80%)/2);
+    }
+ }
 @media screen and (max-width: 820px){
     #menu{
         display: none;
@@ -12,7 +27,7 @@
     }
     .avatar{
         position: absolute;
-        top: 10%;
+        top: 20%;
         z-index: 1;
     }
     .avatar img{
@@ -40,7 +55,7 @@
     }
     .about_contact{
         right: 10%;
-        bottom: 10%;
+        bottom: 8%;
         font-size: 15px;
         padding: 10px 15px;
         border-radius: 12px;
@@ -55,19 +70,17 @@
     }
     .avatar{
         padding: 0 40px;
-        padding-top: 3%;
     }
     .about_avatarnote1{
-        top: 25%;
+        top: 30%;
         border-radius: 9px;
         width: 109px;
         height: 23px;
         font-size: 15px;
     }
     .about_avatarnote2{
-        bottom: 10%;
+        top: 70%;
         left: 0;
-        background-color: #c2deff;
         border-radius: 9px;
         width: 109px;
         height: 23px;
@@ -75,24 +88,11 @@
         color: #fff;
     }
 }
-@media screen and (max-width: 1620px) {
-    .about_title{
-     margin-bottom: 20%;
+@media screen and (max-width: 416px) {
+    .avatar{
+        top: 20%;
     }
-    .about_contact{
-     bottom: 8%;
-    }
-    .about_avatarnote1{
-        top: 18%;
-    }
-    .about_avatarnote2{
-        bottom: 35%;
-    }
-    .resume_list{
-        width: 80%;
-        margin: 0 calc((100% - 80%)/2);
-    }
- }
+}
 @media screen and (max-width: 820px){
     .resume_list{
         justify-content: center;
@@ -117,9 +117,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .hobby_titlee img{
-        width: 50%;
     }
     .hobby_title p{
         font-size: 18px;

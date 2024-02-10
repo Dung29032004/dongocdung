@@ -65,19 +65,19 @@ function myD() {
     var x;
     var y;
     var z;
-    x = document.forms["Form"]["Your name"].value;
+    x = document.forms["Form"]["txtname"].value;
     y = document.forms["Form"]["email"].value;
-    z = document.forms["Form"]["message"].value
+    z = document.forms["Form"]["message"].value;
     if (x == "") {
     alert("Vui lòng nhập tên của bạn");
     return false;
     } else if (y == "") {
-    alert("Vui lòng điền mail của bạn");
+    alert("Vui lòng nhập email");
     return false;
     } else if (z == "") {
-        alert("Bạn hãy gửi lời nhắn tới mình nhé");
+        alert("Hãy gửi lời nhắn cho mình nhé");
         return false;
     } else {
-        alert("Cảm ơn bạn đã gửi lời nhắn tới mình");
+        alert("Cảm ơn bạn đã gửi tin nhắn cho mình");
     }
  }
