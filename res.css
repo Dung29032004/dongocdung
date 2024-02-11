@@ -1,12 +1,43 @@
+@media screen and (max-width: 2005px){
+    .slideshow{
+        height: 1000px;
+}}
+@media screen and (max-width: 1025px) {
+    .slideshow{
+        height: 700px;
+    }
+}
+@media screen and (max-width:1338px) {
+    .aboutme{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    .aboutme h2{
+        display: block;
+    }
+    .avatar img{
+        margin: 0;
+    }
+    .about_part{
+        margin-bottom: 50px;
+    }
+    .about_part h2{
+        display: none;
+    }
+    .about_avatarnote2{
+        bottom: 15%;
+    }
+}
 @media screen and (max-width: 1620px) {
     .about_title{
         bottom: 0;
     }
     .about_title{
-     margin-bottom: 20%;
+        margin-bottom: 20%;
     }
     .about_contact{
-     bottom: 8%;
+        bottom: 8%;
     }
     .resume_list{
         width: 80%;
@@ -20,16 +51,6 @@
     #menumobile{
         display: block;
     }
-    .aboutme{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .avatar{
-        position: absolute;
-        top: 20%;
-        z-index: 1;
-    }
     .avatar img{
         border-radius: 131.27px;
         width: 263.46px;
@@ -37,15 +58,16 @@
     }
     .about_part{
         width: 100%;
-        margin: 0;
-        gap: 250px;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 70px;
     }
-    .about_part h2, footer h2, .social h2, .testi2 h2, .resume h2{
+    .aboutme h2, footer h2, .social h2, .testi2 h2, .resume h2{
         font-size: 35px;
     }
     .about_title{
-        width: 340px;
-        margin: 0 calc((100% - 340px)/2);
+        width: 80%;
+        margin: 0 calc((100% - 80%)/2);
     }
     .about_title h3{
         font-size: 48px;
@@ -54,8 +76,8 @@
         font-size: 20px;
     }
     .about_contact{
-        right: 10%;
-        bottom: 8%;
+        right: 15%;
+        bottom: 4%;
         font-size: 15px;
         padding: 10px 15px;
         border-radius: 12px;
@@ -72,7 +94,7 @@
         padding: 0 40px;
     }
     .about_avatarnote1{
-        top: 30%;
+        top: 15%;
         border-radius: 9px;
         width: 109px;
         height: 23px;
