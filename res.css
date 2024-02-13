@@ -207,6 +207,11 @@
         width: 277px;
         margin: 0 calc((100% - 277px)/2);
     }
+    .testi_title_part span{
+        font-size: 12px;
+        bottom: 0;
+        right: 0;
+    }
 }
 @media screen and (max-width: 1920px) {
     .contact_flex{

@@ -630,6 +630,11 @@ button{
     line-height: 200%;
     margin: 0 calc((100% - 500px)/2);
 }
+.testi_title_part span{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
 footer{
     background-color: #FDD4E8;
     position: relative;
