@@ -12,6 +12,7 @@
        justify-content: center;
        align-items: center;
        flex-direction: column;
+       min-height: auto
     }
     .aboutme h2{
         display: block;

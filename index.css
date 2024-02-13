@@ -184,6 +184,7 @@ a{
     display: flex;
     justify-content: space-around;
     height: 100%;
+    min-height: 100vh;
 }
 .aboutme h2{
     text-align: center;
